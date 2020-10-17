@@ -14,17 +14,14 @@ import { ellipse, square, triangle, accessibilityOutline } from 'ionicons/icons'
 export default {
   name: 'Home',
   components: {IonPage, ExploreContainer },
-  data() {
-    return {
-        welcome: "¡Bienvenido Oleg!",
-    }
-  },
+
   setup() {
     return {
       ellipse, 
       square, 
       triangle,
-      accessibilityOutline
+      accessibilityOutline,
+      welcome: "¡Bienvenido Oleg!",
     }
   }
 }
